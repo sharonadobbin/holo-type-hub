@@ -1,9 +1,9 @@
-import BrailleKeyboard from "@/components/BrailleKeyboard";
+import DraggableKeyboard from "@/components/DraggableKeyboard";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background py-8">
-      <BrailleKeyboard />
+      <DraggableKeyboard />
     </div>
   );
 };
