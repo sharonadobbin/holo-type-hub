@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        keyboard: {
+          key: "hsl(var(--key-bg))",
+          "key-hover": "hsl(var(--key-bg-hover))",
+          border: "hsl(var(--key-border))",
+          shadow: "hsl(var(--key-shadow))",
+          dot: "hsl(var(--braille-dot))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
